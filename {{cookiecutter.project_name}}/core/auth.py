@@ -4,7 +4,7 @@ from aiohttp_session import new_session
 
 from .models.auth import Auth
 
-
+# TODO move to app/handlers, is better ...
 async def SignOnHandler(request: web.Request) -> web.Response:
     """
     This handler allow loggin/signon and return a valid token.

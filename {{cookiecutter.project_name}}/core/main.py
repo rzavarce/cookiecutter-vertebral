@@ -62,6 +62,9 @@ def main():
         MongoModel().setup_client(config['mongo']['uri'],
                                   config['mongo']['db_name'])
 
+    # Load Load Initial authentication Data if is necesary
+    # await vertebra.load_initial_auth_data(app["mongo"])
+
     # Set vertebra
     app["vertebra"] = vertebra
 

@@ -50,7 +50,26 @@ class Auth(MongoModel):
             return generate_token(token_length)
         return q
 
+    async def load_initial_data(self):
+        """
+        Load initial data, necesary to auth and test
 
+        -----------------
+        Args:
+            key (str): Key request parameter
+            resource (str): Resource request parameter
+            token_length (int): Token length config parameter
+        Returns:
+            token (str): Token generated
+        """
+        key = "xxx"
+        resource = "yyy"
+        q = await self.collaction.find_one({'key': key, 'resource': resource})
+        if q is not None:
+            data = {"client_id": 1, "key": "xxx", "resource": "yyy"}
+            i = await self.collaction.insert_one(data)
+            return True
+        return False
 '''
 class Token(MongoModel):
     """Token Auth model."""

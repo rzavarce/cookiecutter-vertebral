@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 
 from {{cookiecutter.project_name}}.routes import setup_routes, EXCLUDED_ROUTES
 from aiohttp_swagger3 import SwaggerDocs, SwaggerUiSettings
+from .models.auth import Auth
 
 from .catalogs.response import CATALOG
 
@@ -144,6 +145,30 @@ class Vertebral:
                                       "method": route[0].lower(),
                                       "path": self.prefix + route[1]}})
         app.add_routes(final_routes)
+
+
+    async def load_initial_auth_data(self, clientdb):
+        """
+        Register existing routes in the app instance.
+
+        -----------------
+        Args:
+            clientdb (web.app) : application instance
+        Returns:
+            No return anythings
+        """
+        auth = Auth(clientdb)
+        print()
+        print("Entro para chequear los datos en la bbdd")
+        print()
+        load = await auth.load_initial_data()
+        if load:
+            print()
+            print("cargo la da data inicial")
+            print()
+            self.logger.error('Load Initial authentication Data')
+
+        del auth
 
     def set_path_prefix(self):
         """
