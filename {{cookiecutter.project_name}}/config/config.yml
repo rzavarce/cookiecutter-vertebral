@@ -1,0 +1,73 @@
+##########################################################
+#
+# Minimal Server Configuration
+#
+##########################################################
+
+host: {{cookiecutter.host}}
+port: {{cookiecutter.port}}
+app_name: {{cookiecutter.project_name}}
+version: 1
+
+##########################################################
+#
+# MongoDB Server Configuration
+# Example URL: "mongodb+srv://<username>:<password>@<cluster-url>/< db_name>"
+#
+##########################################################
+
+mongo:
+  db_name: "{{cookiecutter.mongo_db_name}}"
+  uri: "mongodb://{{cookiecutter.mongo_host}}:{{cookiecutter.mongo_port}}/{{cookiecutter.mongo_db_name}}"
+
+##########################################################
+#
+# Logger Utilitary Configuration
+#
+##########################################################
+
+logger:
+  enable: false
+  logs_file_path: logs/{{cookiecutter.project_name}}.log
+
+
+##########################################################
+#
+# Authentification Utilitary Configuration
+#
+##########################################################
+
+auth:
+  enabled: true
+  token_time: 1000 # In seconds
+  token_length: 30 # Number of characters
+
+
+##########################################################
+#
+# Swagger Sistem Configuration
+#
+##########################################################
+
+swagger:
+  enabled: true # Disable only OpenApi3 validation, Docs is enabled
+  title: Swagger {{cookiecutter.project_name}}
+  version: 1.0.0
+  path: /docs/
+  layout: StandaloneLayout  # or BaseLayout
+  deepLinking: true
+  displayOperationId: true
+  defaultModelsExpandDepth: 5
+  defaultModelExpandDepth: 5
+  defaultModelRendering: model
+  displayRequestDuration: true
+  docExpansion: list
+  filter: true
+  showExtensions: true
+  showCommonExtensions: true
+  supportedSubmitMethods: get
+  test: "get,put,post,delete"
+  validatorUrl: null
+  withCredentials: true
+
+

@@ -1,0 +1,22 @@
+stages:
+    - 'test'
+    
+variables:
+    TARGET: "{{cookiecutter.project_name}}"
+
+check-code:
+    stage: test
+    script:
+        - echo $PATH
+        - echo $TARGET
+        - id
+        - pwd
+        - ls -l Dockerfile
+        - ls -l docker-compose.yml
+        - pyenv local 3.7.1
+        - python --version
+        - pip install --quiet poetry
+        - poetry install
+        - poetry run flake8 $TARGET
+        - poetry run mypy --config-file mypy.ini $TARGET
+        - poetry run python -m pytest tests/

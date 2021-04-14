@@ -1,0 +1,82 @@
+2021-04-05 16:32:09,601 - root - INFO - Log Utility has been setting
+2021-04-05 16:32:09,609 - root - INFO - Config File has been loaded
+2021-04-05 16:32:09,610 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 16:32:09,730 - root - INFO - All Systems are ready
+2021-04-05 16:32:25,179 - root - INFO - Log Utility has been setting
+2021-04-05 16:32:25,184 - root - INFO - Config File has been loaded
+2021-04-05 16:32:25,184 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 16:32:25,291 - root - INFO - All Systems are ready
+2021-04-05 19:37:09,304 - root - INFO - Log Utility has been setting
+2021-04-05 19:37:09,308 - root - INFO - Config File has been loaded
+2021-04-05 19:37:09,308 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 19:37:09,404 - root - INFO - All Systems are ready
+2021-04-05 19:42:33,938 - root - INFO - Log Utility has been setting
+2021-04-05 19:42:33,942 - root - INFO - Config File has been loaded
+2021-04-05 19:42:33,942 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 19:42:34,030 - root - INFO - All Systems are ready
+2021-04-05 19:43:22,800 - root - INFO - Log Utility has been setting
+2021-04-05 19:43:22,805 - root - INFO - Config File has been loaded
+2021-04-05 19:43:22,805 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 19:43:22,912 - root - INFO - All Systems are ready
+2021-04-05 19:43:48,380 - root - INFO - Log Utility has been setting
+2021-04-05 19:43:48,384 - root - INFO - Config File has been loaded
+2021-04-05 19:43:48,384 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 19:43:48,482 - root - INFO - All Systems are ready
+2021-04-05 19:47:51,595 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 19:47:51,702 - root - INFO - All Systems are ready
+
+
+
+
+
+
+2021-04-05 19:48:15,488 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 19:48:15,581 - root - INFO - All Systems are ready
+2021-04-05 19:54:01,308 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 19:54:01,416 - root - INFO - All Systems are ready
+2021-04-05 20:02:29,454 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 20:02:29,561 - root - INFO - All Systems are ready
+2021-04-05 20:04:46,479 - asyncio - DEBUG - Using selector: EpollSelector
+2021-04-05 20:04:46,587 - root - INFO - All Systems are ready
+[2021-04-05T18:18:21Z] [6529] [INFO] [vertebral.py:305] - Msg: Log Utility has been setting xxxxxxxxxxxxxx - Extra: {}
+[2021-04-05T18:18:21Z] [6529] [DEBUG] [selector_events.py:54] - Msg: Using selector: EpollSelector - Extra: {}
+[2021-04-05T18:18:21Z] [6529] [INFO] [main.py:67] - Msg: All Systems are ready - Extra: {}
+
+
+
+
+
+[2021-04-05T18:18:43Z] [6529] [ERROR] [vertebral.py:213] - Msg: Json request is not valid - Extra: {"status": 400, "type": "error", "code": "E-0001", "detail": "Json request is not valid", "payload": {"error_msgs": ["'key' is a required property", "Additional properties are not allowed ('keay' was unexpected)"]}, "uuid": "edcbadd4-2edd-44bb-85b4-8cc88488a08d"}
+[2021-04-05T18:18:43Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:18:43 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 422 445 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:18:43 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 422, "response_size": 445, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+[2021-04-05T18:19:24Z] [6529] [DEBUG] [selector_events.py:54] - Msg: Using selector: EpollSelector - Extra: {}
+[2021-04-05T18:19:24Z] [6529] [INFO] [main.py:67] - Msg: All Systems are ready - Extra: {}
+[2021-04-05T18:19:34Z] [6529] [ERROR] [vertebral.py:213] - Msg: Json request is not valid - Extra: {"status": 400, "type": "error", "code": "E-0001", "detail": "Json request is not valid", "payload": {"error_msgs": ["'key' is a required property", "Additional properties are not allowed ('keay' was unexpected)"]}, "uuid": "1581a787-4c1f-48f5-9229-dd748113a6a4"}
+[2021-04-05T18:19:34Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:19:34 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 422 445 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:19:34 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 422, "response_size": 445, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+[2021-04-05T18:19:35Z] [6529] [ERROR] [vertebral.py:213] - Msg: Json request is not valid - Extra: {"status": 400, "type": "error", "code": "E-0001", "detail": "Json request is not valid", "payload": {"error_msgs": ["'key' is a required property", "Additional properties are not allowed ('keay' was unexpected)"]}, "uuid": "281b0e91-ff9d-417b-a452-5bed150bef6d"}
+[2021-04-05T18:19:35Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:19:35 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 422 445 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:19:35 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 422, "response_size": 445, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+[2021-04-05T18:19:36Z] [6529] [ERROR] [vertebral.py:213] - Msg: Json request is not valid - Extra: {"status": 400, "type": "error", "code": "E-0001", "detail": "Json request is not valid", "payload": {"error_msgs": ["'key' is a required property", "Additional properties are not allowed ('keay' was unexpected)"]}, "uuid": "bd506435-ffda-4da6-9e03-13202eec3291"}
+[2021-04-05T18:19:36Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:19:36 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 422 445 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:19:36 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 422, "response_size": 445, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+[2021-04-05T18:19:44Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:19:44 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 200 361 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:19:44 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 200, "response_size": 361, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+[2021-04-05T18:20:57Z] [6529] [DEBUG] [selector_events.py:54] - Msg: Using selector: EpollSelector - Extra: {}
+[2021-04-05T18:20:57Z] [6529] [INFO] [main.py:67] - Msg: All Systems are ready - Extra: {}
+[2021-04-05T18:21:06Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:21:06 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 200 361 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:21:06 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 200, "response_size": 361, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+[2021-04-05T18:21:07Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:21:07 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 200 361 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:21:07 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 200, "response_size": 361, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+
+
+
+
+
+
+
+
+[2021-04-05T18:21:16Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:21:16 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 200 361 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:21:16 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 200, "response_size": 361, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+[2021-04-05T18:21:35Z] [6529] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:21:35 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 200 361 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:21:35 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 200, "response_size": 361, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+[2021-04-05T18:23:03Z] [6827] [DEBUG] [selector_events.py:54] - Msg: Using selector: EpollSelector - Extra: {}
+[2021-04-05T18:23:03Z] [6827] [INFO] [main.py:67] - Msg: All Systems are ready - Extra: {}
+[2021-04-05T18:23:11Z] [6827] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:23:11 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 200 361 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:23:11 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 200, "response_size": 361, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
+
+
+
+
+
+[2021-04-05T18:23:20Z] [6827] [INFO] [web_log.py:206] - Msg: 127.0.0.1 [05/Apr/2021:18:23:20 +0000] "POST /geoserver/api/v1/signon HTTP/1.1" 200 361 "-" "PostmanRuntime/7.26.10" - Extra: {"remote_address": "127.0.0.1", "request_start_time": "[05/Apr/2021:18:23:20 +0000]", "first_request_line": "POST /geoserver/api/v1/signon HTTP/1.1", "response_status": 200, "response_size": 361, "request_header": {"Referer": "-", "User-Agent": "PostmanRuntime/7.26.10"}}
