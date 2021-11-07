@@ -4,7 +4,7 @@
   "port": 10000,
   "full_name": "Anonymous",
   "email": "",
-  "project_author": "{{cookiecutter.full_name}} {{cookiecutter.email}}",
+  "project_author": "{{cookiecutter.full_name}} <{{cookiecutter.email}}>",
   "github_username": "",
   "python_version": "3.8",
   "version": "0.1.0",
